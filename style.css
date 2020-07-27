@@ -1,0 +1,261 @@
+
+/*   MAIN PAGE CSS */
+body{
+    font-family: 'Monserrat Semi-Bold';
+   /*  font-size: 26px; */
+  }
+  
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color:  #ece9e9;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {    
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+   
+  .signUp {
+    position: initial;
+    display: block;
+  }
+   
+   
+  
+   
+   h1 {
+      font-family:'Monserrat Semi-Bold';
+      font-size: 48px;
+      text-align: center;
+      color: rgb(85, 35, 35);
+      text-shadow: 5px 5px 10px #3b4b53;
+    }
+    
+    h2 {
+     font-family: 'Monserrat Semi-Bold';
+    }
+
+    .btn {
+      font-family: 'Monserrat';
+      background: #ff914d;
+      padding: 10px 24px;
+      color: white;
+      text-align: justify;
+    }
+
+    .btn:hover{
+      padding: 10px 24px;
+      border: 1px solid #ff914d;
+      background-color: white;
+      color: black;
+    }
+
+    .jumbotron{
+      background: 
+       #abbdf0 url('./images/jumboback.jpg') no-repeat center;
+      background-size: cover;
+    
+    }
+  .searchbox{
+    padding: 50px;
+    background: linear-gradient(#f3f4f7, transparent 10%),
+    linear-gradient(0deg, #fff, transparent 10%),
+    linear-gradient(90deg, #fff, transparent 10%),
+    linear-gradient(-90deg, #fff, transparent 10%);
+  }
+  
+  
+    #searchButton{
+      background-color: yellowgreen;
+      color: white;
+      padding: 0 24px;
+    }
+  
+   /*  #searchButton{
+    background-color: #ff914d;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 25px;
+    } */
+    
+    .card {
+    border: none; 
+    }
+
+    .card-text {
+      max-height: 1px;
+    }
+
+    .card-img-top {
+      width: 100%;
+      height: 35%;
+      padding: 10px 10px;
+    }
+
+    .card-title {
+      color: #74a322;
+      font-weight: bold;
+    }
+
+    .cardButton {
+     text-align: center;
+    }
+  
+    .highlight{
+      border: 1;
+    }
+    
+    .mejs__container {
+      margin: 0 auto;
+    }
+  
+    .footer{
+    background-color: #ece9e9;
+    color: black;
+    font-size: 26px;
+    }
+
+    .footer-text{
+      float: right;
+    }
+
+    .social-media-contact a::after{
+      margin: 10px;
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      float: left;
+      }
+      
+      .instagram::after{
+        content: url(./media/instagram.svg);
+      }
+      .facebook::after{
+        content: url(./media/facebook.svg);
+      }
+      .twitter::after{
+        content: url(./media/twitter.svg);
+      }
+
+
+/*   MODAL CSS */
+
+      .modal-img{
+        width: 100%;
+        height: 60%;
+        }
+    
+     /*  table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      th,td {
+        border: 2px solid black;
+        text-align: left;
+        padding: 8px;
+      }
+  
+      th{
+        background-color: #9bcaf7;
+      }
+      
+      tr:nth-child(even) {
+        background-color:rgb(250, 137, 137);
+      }
+ */
+ 
+
+ .testDiv{
+     /* set green border independently on each side */
+     border-right: solid green 2px;
+  
+ }
+
+
+      #container{
+        width:100%;
+        min-width:1100px;
+        min-height:500px;
+        margin:0 auto;
+      }
+
+      .pricetab{
+        width:20%;
+        min-width:200px;
+        background: rgb(245, 239, 239);
+        float: left;
+        border-top: solid green 2px;
+        border-bottom: solid green 2px;
+      }
+      
+      .price{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+        border:1px solid #ff9547;
+        margin:3% auto 0 auto;
+        text-align:center;
+      }
+      
+      .infos{
+        margin-top:10%;
+      }
+      
+      
+      
+      /* Typo */ 
+      .title{
+        font-family:arial;
+        color: black;
+        font-size:38px;
+        font-weight:normal;
+        text-align:left;
+        text-transform:uppercase;
+        margin:auto;
+      }
+      h1{
+        font-size:18px;
+        color:black;
+        text-align:center;
+        line-height:1;
+      }
+      h2{
+        text-align:center;
+        font-size:35px;
+        color:black;
+      }
+      
+      h3{
+        font-size:14px;
+        font-weight:normal;
+        text-align:center;
+        color:black;
+        line-height:1;
+      }
+      
